@@ -108,25 +108,7 @@ a {
 .left {
   width: 50%;
 }
-.banner {
-  /* width: 30%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: gray;
-  color: white;
-  opacity: 60%;
-  border-radius: 50%;
-  margin-right: 20px; */
-}
-.photo {
-  /* background-image: url("https://drive.google.com/uc?export=view&id=1IJqjB1WH5y3CTg4EiJsvEyuVgHmqsctm");
-  height: 400px;
-  width: 50%;
-  object-fit: cover; */
-}
+
 .banner .photo {
   display: inline-block;
   width: 375px;
