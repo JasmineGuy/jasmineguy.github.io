@@ -77,11 +77,12 @@ a {
 #about-me {
   display: flex;
   flex-direction: column;
-  height: 400px;
-  width: 20%;
+  width: 60%;
   color: gray;
-  font-size: 18px;
+  /* font-size: 2px; */
   align-items: center;
+  justify-content: center;
+  height: 450px;
   border-bottom: 6px dotted gray;
   border-top: 6px dotted gray;
   margin-left: 100px;
@@ -94,22 +95,47 @@ a {
   font-size: 25px;
   margin-top: -15px;
 }
+.bio {
+  width: 95%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.more {
+  width: 85%;
+  height: 20vh;
+}
 .left {
   width: 50%;
 }
 .banner {
-  width: 80%;
+  /* width: 30%;
   height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f8d0c6;
+  background-color: gray;
   color: white;
   opacity: 60%;
+  border-radius: 50%;
+  margin-right: 20px; */
 }
-ul {
-  margin: 0;
+.photo {
+  /* background-image: url("https://drive.google.com/uc?export=view&id=1IJqjB1WH5y3CTg4EiJsvEyuVgHmqsctm");
+  height: 400px;
+  width: 50%;
+  object-fit: cover; */
+}
+.banner .photo {
+  display: inline-block;
+  width: 375px;
+  height: 375px;
+  background: url("https://drive.google.com/uc?export=view&id=1VP2zurDtMcrfyxjmrZcGTy1JXx3Mhw9I");
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 30px;
 }
 #skills,
 #work {
@@ -237,6 +263,7 @@ ul {
   color: #f8d0c6;
   text-decoration: underline;
 }
+
 #image {
-  margin-bottom: 40px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
 }
