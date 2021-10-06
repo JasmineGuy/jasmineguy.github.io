@@ -1005,8 +1005,8 @@ h6 {
   position: absolute;
   left: 0px;
   top: 5px;
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   color: #000;
 
   -webkit-transition: all 0.4s ease;
@@ -1019,10 +1019,10 @@ h6 {
   padding-left: 75px;
 }
 .waxon_tm_service ul li .details h3 {
-  margin: 0px;
-  font-size: 18px;
+  margin: 1rem;
+  font-size: 25px;
   font-weight: 600;
-  margin-bottom: 16px;
+  margin-top: 1.5rem;
 }
 .waxon_tm_service ul li .details p {
   font-style: italic;
@@ -1467,7 +1467,7 @@ h6 {
   display: block;
   color: #fff;
   font-family: "Montserrat";
-  font-weight: 500;
+  font-weight: 700;
 }
 .waxon_tm_copyright .copyright_inner > ul > li span a {
   text-decoration: none;
@@ -1521,8 +1521,8 @@ h6 {
 }
 .waxon_tm_copyright .copyright_inner .social .svg {
   color: #fff;
-  width: 17px;
-  height: 17px;
+  width: 35px;
+  height: 35px;
 }
 
 /*---------------------------------------------------*/
@@ -1943,4 +1943,9 @@ h6 {
     width: 100%;
     padding-left: 0px;
   }
+}
+.special-row {
+  display: flex;
+  flex-direction: row;
+  color: white;
 }
