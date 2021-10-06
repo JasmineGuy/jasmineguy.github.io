@@ -1026,6 +1026,7 @@ h6 {
 }
 .waxon_tm_service ul li .details p {
   font-style: italic;
+  color: transparent;
 }
 
 /*---------------------------------------------------*/
