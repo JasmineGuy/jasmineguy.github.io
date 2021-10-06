@@ -1524,7 +1524,9 @@ h6 {
   width: 35px;
   height: 35px;
 }
-
+.waxon_tm_copyright .copyright_inner .social a {
+  text-decoration: none;
+}
 /*---------------------------------------------------*/
 /*	12) WAXON CURSOR
 /*---------------------------------------------------*/
